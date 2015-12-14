@@ -25,13 +25,19 @@ Jekyll 静态网页生成神器。有了它，妈妈再也不用担心我弄不�
 2. 安装RubyGems
 
 3. 安装Jekyll
-	- gem sources --remove https://rubygems.org/ #已被墙，需要更换地址
-	- gem sources -a https://ruby.taobao.org/
-	- gem sources -l &emsp;&emsp; #查看地址
-	- gem update --system &emsp;&emsp; # 更新软件，可以跳过。
-	- gem install jekyll &emsp;&emsp; #安装Jekyll
+	- gem sources --remove https://rubygems.org/  
+		#已被墙，需要更换地址
+	- gem sources -a https://ruby.taobao.org/  
+		#添加淘宝的源
+	- gem sources -l  
+		#查看地址
+	- gem update --system  
+		# 更新软件，可以跳过。
+	- gem install jekyll  
+		#安装Jekyll
 
 4. 如运行报错 Missing dependency: rdiscount
-	- gem install rdiscount &emsp;&emsp; #安装rdiscount依赖包。
+	- gem install rdiscount  
+		#安装rdiscount依赖包。
 
 
