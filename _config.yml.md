@@ -6,16 +6,22 @@
 
 - source: DIR / -s,--source DIR
 	> 设置Jekyll 读取文件的目录
+
 - destination: DIR / -d,--destination DIR
 	> 设置Jekyll 写入文件的目录（默认_site）
+
 - safe: BOOL / --safe
 	> 禁用自定义插件
+
 - exclude: [DIR,FILE, ...]
 	> 排除目录，文件
+
 - include: [DIR,FILE, ...]
 	> 包含指定文件
+
 - timezone: TIMEZONE
 	> 设置时区 如Asia/Shanghai,默认为系统时区
+
 - encoding: ENCODING
 	> 设置文件的编码
 
