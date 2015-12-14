@@ -24,7 +24,7 @@ title: "Hello world"
 	> 配置访问该文件的指定路径，相当路径映射
 
 - published
-	> 设置为 `false` 将展示具体博文
+	> 设置为 `false` 将展示不具体博文
 
 - category | categories
 	> 指定分类属性，使博文能够根据分类属性来阅读
@@ -44,11 +44,11 @@ title: "Hello world"
 
 <pre> 
 
-<html>
-	<head>
-		<title>{{ page.title }}</title>
-	</head>
-</html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+		</head>
+	</html>
 	...
 
 </pre>
