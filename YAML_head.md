@@ -44,6 +44,13 @@ title: "Hello world"
 
 ![Yaml head example](./images/Yaml_head_example.png)
 
+{% highlight html %}
+	<html>
+		<head>
+			<div> {{ context }} </div>
+		</head>
+	</html>
+{% endhighlight %}
 - 通过文章预定义`date`变量
 - 会覆盖文件名的日期，达到更新时间分类的效果
 
