@@ -12,23 +12,23 @@
 ### Liquid 简介
 
 - 引用官网介绍：  
-	Liquid is an open-source, Ruby-based template language created by Shopify. It is the backbone of Shopify themes and is used to load dynamic content on storefronts.  
+	Liquid is an open-source, Ruby-based template language created by Shopify.   
 	`Liquid 由Shopify 创建，开源并且基于Ruby 的一种模板语言。`
 
 	`Liquid 使用Tags、Objects、Filters 来动态加载内容`
 
 	- Tags
 		* 通过标签实现逻辑编程，有效识别出语法内容  
-		  &#123;% if user.name == 'elvis' %&#125;  
+		  {% if user.name == 'elvis' %};  
 		    Hey Elvis  
-		  &#123;% endif %}
+		  {% endif %}
 	- Objects
 		* 通过对象将动态内容显示  
-		  &#123;{ post.title }}  
+		  {{ post.title }}  
 		  `Output: How to use Liquid`
 	- Filters
 		* 通过管道过滤字符串、数字、变量和对象的输出  
-		  &#123;{ 'sales' | append: '.jpg' }}  
+		  {{ 'sales' | append: '.jpg' }}  
 		  `Output: sales.jpg`
 
 #### 常用过滤器
@@ -105,8 +105,8 @@
 
 - date  
 	`用于格式化时间`  
-	基本用法形如：**&#123;{ date: "%d" }}**  
-	Input: &#123;{ article.published_at | date: "%a, %b %d,%y" }}  
+	基本用法形如：**{{ date: "%d" }}**  
+	Input: {{ article.published_at | date: "%a, %b %d,%y" }}  
 	Output: Tue, Apr 22, 14  
 	`选项：`
 	- `%a`  
