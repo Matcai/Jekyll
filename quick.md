@@ -1,6 +1,6 @@
 # Jekyll 快速指南
 
-###  生成静态页面魔板
+###  生成静态页面模板
 
 	jekyll new myblog
 	
